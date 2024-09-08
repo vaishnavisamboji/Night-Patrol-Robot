@@ -31,6 +31,16 @@ The Night Patrol Robot is an autonomous security system designed for nighttime s
 3. **Live Monitoring**: A 360-degree rotating night vision camera streams real-time video to an IoT server, allowing security personnel to monitor the area remotely.
 4. **Obstacle Avoidance**: The robot uses IR sensors to avoid collisions, rerouting its path if needed.
 
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/vaishnavisamboji/Night-Patrol-Robot.git
+    ```
+2. Open the project in the Arduino IDE.
+3. Upload the code to the ESP32-CAM board.
+4. Set up the IoT server to receive live video streams.
+5. Install the necessary hardware components following the circuit design provided in the repository.
+
 ### Future Enhancements
 - **GPS Integration**: To enable location-based monitoring and real-time tracking.
 - **Gas and Fire Detection**: Adding sensors for enhanced safety monitoring.
